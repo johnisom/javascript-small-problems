@@ -1,0 +1,5 @@
+// Exercise 8
+
+const buyFruit = function buyFruit(groceryList) {
+  return groceryList.flatMap(([fruit, count]) => Array(count).fill(fruit));
+};
